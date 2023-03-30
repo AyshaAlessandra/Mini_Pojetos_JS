@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #e5e3e6f4;
+}
+
+main {
+    width: 100%;
+    padding: 2rem;
+    /* espacamento interno */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.calculadora h1 {
+    font-size: 3rem;
+}
+
+.calculadora .area-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.area-input input {
+    width: 100%;
+    height: 2.5rem;
+    color: #000000;
+    background-color: #D4CADD;
+    border-radius: 8px;
+    padding: 0 12px;
+    border: none;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.area-input span {
+    margin-bottom: 12px;
+}
+
+.calculadora .area-botao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculadora .area-botao button {
+    width: 30%;
+    border-radius: 4px;
+    background-color: #923de7;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.15);
+    color: #000000;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.calculadora .area-botao button:hover {
+    background-color: #794ea4;
+}
+
+.tabela {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tabela table {
+    width: 80%;
+    border-collapse: collapse;
+    background-color: #D4CADD;
+}
+
+.tabela th {
+    width: 60%;
+    text-align: left;
+}
+
+tr {
+    height: 30px;
+    width: 20px;
+    border: 1px solid #6161616d;
+}
+
+.IMC {
+    margin-top: 30px;
+}
+
+.IMC input {
+    width: 60px;
+}
+
+.alerta {
+    color: #ff0000;
+    font-size: 12px;
+    font-weight: bold;
+}
