@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/animacao.css">
+    <link rel="stylesheet" href="CSS/responsivo.css">
+    <title>Advinhar Número</title>
+</head>
+
+<body onLoad='gerarNumeroSecreto()'>
+    <main id="tela-inicial">
+        <div id="animar" class="container">
+            <section class="conteudos">
+                <h1>Adivinhe o número secreto</h1>
+                <br>
+                <p class="paragrafo">Número entre 1 a 10.</p>
+                <br>
+                <input 
+                type="number"
+                step="1"
+                min="1"
+                max="10"
+                name="inputNumero"
+                id="inputNumero"
+                class="input"
+                onBlur="validarNumeroDigitado(this.value)"
+                onClick="ativarBtnChutar()"
+                />
+                <button
+                id='btnChutar'
+                class='botao'
+                onClick="jogar()"    
+            >Chutar</button>
+            <p class='centro' id='aviso'></p>
+        </section>
+        </div>
+        
+        <div class="area">
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </main>
+
+    <script src="Js/index.js"></script>
+</body>
+</html>

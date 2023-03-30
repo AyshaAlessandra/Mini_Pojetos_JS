@@ -1,0 +1,111 @@
+@media(max-width: 1650px) {
+    .container {
+        width: 40%;
+        height: 70%;
+    }
+}
+
+@media(max-width: 1024px) {
+    .container {
+        width: 40%;
+        height: 70%;
+    }
+}
+
+@media(max-width: 830px) {
+    .container {
+        width: 50%;
+        height: 50%;
+    }
+}
+@media(max-width: 682px) {
+    .container {
+        width: 60%;
+        height: 65%;
+    }
+}
+@media(max-width: 565px) {
+    .container {
+        width: 75%;
+        height: 70%;
+    }
+}
+
+@media(max-width: 460px) {
+    .container {
+        height: 50%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    #btnChutar {
+        font-size: 16px;
+    }
+
+    #aviso {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 400px) {
+    .container {
+        width: 80%;
+        height: 50%;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 360px) {
+    .container {
+        width: 85%;
+        height: 40%;
+    }
+
+    h1 {
+        font-size: 16px;
+    }
+
+    input,
+    .paragrafo {
+        height: 25px;
+        font-size: 14px;
+    }
+
+    #btnChutar {
+        font-size: 16px;
+    }
+
+    #aviso {
+        font-size: 11px;
+    }
+}
+
+@media(max-width: 298px) {
+    .container {
+        width: 85%;
+        height: 40%;
+    }
+
+    h1 {
+        font-size: 13px;
+    }
+
+    input,
+    .paragrafo {
+        height: 20px;
+        font-size: 12px;
+    }
+
+    #btnChutar {
+        font-size: 14px;
+    }
+
+    #aviso {
+        font-size: 9px;
+    }
+}
