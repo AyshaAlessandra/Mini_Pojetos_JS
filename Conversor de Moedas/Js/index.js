@@ -67,7 +67,6 @@ btnConverter.addEventListener('click', function() {
     qual e a moeda estrangeira que foi selecionada
     */
 
-// {moedaConvertida.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
 // CONVERSAO DE MOEDAS
 // Operacao basica pegar moedaEstrangeira e dividir pelo valorEmReal
     switch(moedaEstrangeira) {
@@ -102,7 +101,7 @@ btnLimpar.addEventListener('click', function() {
     valorDigitado.focus();
     valorDigitado.value = '';
     bloquearBotao();
-    aviso.textContent = 'Digite o valor, escolha a moeda e converter';
+    aviso.textContent = 'Digite o valor, escolha a moeda e converte.';
     moedaSelecionada[0].checked = false;
     moedaSelecionada[1].checked = false;
     moedaSelecionada[2].checked = false;

@@ -12,6 +12,7 @@ body {
   width: 100vw;
   height: 100vh;
   background: #1c7250;
+  color: #ffffff;
 }
 
 main {
@@ -28,7 +29,8 @@ main {
 .container {
   box-shadow: #000000 1px 2px 2px 2px;
   border-radius: 5px;
-  width: 50%;
+  width: 40%;
+  height: 60%;
 }
 
 section {
@@ -86,7 +88,7 @@ label:first-child {
 }
 
 .input {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
   padding: 5px;
   margin-bottom: 0.625rem;
@@ -126,56 +128,11 @@ label:first-child {
 
 #btnConverter:hover,
 #btnLimpar:hover {
-  box-shadow: 0px 0px 15px #ffc107;
+  box-shadow: 0px 0px 15px #000000;
 }
 
 /* Paragrafo com ID aviso */
 #aviso {
   padding: 5px;
   color: #191919;
-}
-
-#imgMoedas {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
-.images{
-  background: #1c7250;
-  border: 0;
-}
-
-/* Animar o input */
-@keyframes piscar {
-  0% {
-    /* box-shadow: 0 0 25px #ffc107; */
-    filter: drop-shadow(0 0 25px #ffc107);
-    -webkit-filter: drop-shadow(0 0 25px #ffc107);
-    -moz-filter: drop-shadow(0 0 25px #ffc107);
-    -o-filter: drop-shadow(0 0 25px #ffc107);
-    -ms-filter: drop-shadow(0 0 25px #ffc107);
-  }
-
-  100% {}
-}
-
-@keyframes aparecer {
-  to {
-    opacity: 0;
-    /* opacidade 0 = 100% transparente */
-  }
-
-  from {
-    opacity: 1;
-    /* opacidade 1 = 0% transparente */
-  }
-}
-
-.animar {
-  animation: piscar 1s infinite alternate;
-}
-
-.aparecer {
-  animation: aparecer 1.5s ease-in;
 }
